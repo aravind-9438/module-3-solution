@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9999;
+  border-radius: 0;
+  border:2px solid black;
+}
+
+
+.navbar-brand h1 {  
+  font-size: 1.5em;
+  font-weight: bold;
+  color:black;
+  text-shadow: 1px 1px 1px #222;
+  line-height: 1.75;
+  margin-top:-10px;
+  margin-left:30px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+ 
+ 
+
+#nav-list {
+  list-style:none;
+  margin:0;
+  padding:0px;
+  background-color:MediumSeaGreen;
+}
+#nav-list a {
+  color:black;
+  text-decoration: none;
+  text-align:center;
+  padding:10px;
+  border-top:2px solid black;
+  margin:0;
+}
+a{
+  display:block;
+}
+#nav-list a:hover {
+  background:#d59898;
+}
+
+ 
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+ h2{
+  padding:10px;
+ }
+ .con p,h3{
+     background-color:#999999;
+     padding:15px;
+ }
+ .menu{
+  margin:0;
+  text-align:center;
+  padding:10px;
+ }
+ #content{
+  height:1000px;
+ }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+        .navbar-brand h1 {
+              margin-top:0px;
+       }
+
+}
+
